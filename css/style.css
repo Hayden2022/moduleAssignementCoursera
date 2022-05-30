@@ -1,0 +1,88 @@
+@font-face
+{
+	font-family: "HaydenPolices";
+	src: url("");
+}
+/********************************desktop version*********************/
+@media (min-width: 992px)
+{
+	section
+	{
+		float: left;
+		width: 33.33%;
+
+	}
+}
+
+/*************************tablet version*************************/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	section
+	{
+		float:left;
+		width: 50%;
+	}
+	section:nth-child(4)
+	{
+		color: blue;
+		clear: both;
+		width: 100%;
+	}
+}
+
+/*********************mobile version*************************/
+@media ( max-width: 767px)
+{
+	section
+	{
+		width: 100%;
+	}
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+section
+{
+	/*border: red solid;*/
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+
+}
+.sectionContainer
+{
+	border: green solid;
+	position: relative;
+	background-color: grey;
+	border-radius: 15px;
+}
+h2
+{
+	background-color: green;
+	color: #fff;
+	position: absolute;
+	margin-top: 0;
+	top: 0;
+	right: 0;
+	width: 150px;
+	text-align: center;
+	text-transform: capitalize;
+	border-radius: 0 15px 0 0;
+}
+h1{
+	text-align: center;
+	text-transform: capitalize;
+}
+p{
+	margin-top: 30px;
+	padding-left: 10px;padding-right: 10px;
+} 
+.t1,.t2,.t3
+{
+	color: white;
+
+}
+.t2{background-color: red;}.t3{background-color: yellow; color: #000;}
